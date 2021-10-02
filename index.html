@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+        <title>busca de dados do cep</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <form action="">
+            <div id="div-pesquisa">
+                <div id="div-buscacep">
+                    <label for="cep">INSIRA O CEP</label>
+                    <input id="cep" type="text" maxlength="8" placeholder=" ex: 77300000">
+                    <input onclick="enviar()" id="input" type="button" value="PESQUISAR">
+                </div>
+                <img src="logo.png">
+            </div>
+            <div>
+                <label for="logradouro" style="margin-top: 10px">Rua</label>
+                <input type="text" id="log" disabled>
+                <label for="bai">Bairro</label>
+                <input type="text" id="bai" disabled>
+                <label for="loc">Cidade</label>
+                <input type="text" id="loc" disabled>
+                <label for="uf">Uf</label>
+                <input type="text" id="uf" disabled>
+                <label for="ibge">Ibge</label>
+                <input type="text" id="ibge" disabled>
+                <label for="ddd">ddd</label>
+                <input type="text" id="ddd" disabled>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+    <a href="https://www.facebook.com/rodrigo.santanasantos.18"><img class="im" src="face.png" alt="some text" width=40 height=40></a>
+    <a href="https://www.instagram.com/ro_dograuu/"><img class="in" src="insta.png" alt="some text" width=40 height=40></a>
+</html>

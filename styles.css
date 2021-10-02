@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgba(180, 180, 180, 0.541); 
+    font-size: 24px;
+    background-color: #ffff00;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+#div-pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#div-pesquisa img {
+
+    margin-right: 5%;
+}
+#div-buscacep {
+    width: 300px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div label, input {
+    margin-bottom: 8px;
+}
+div input {
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+#input {
+    background-color: #6afc08d7;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #030303;
+}
+form {
+    margin: 5% 15%;
+    background-color: #f7f4f4bb;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    form {
+        margin: 0;
+    }
+}
+.im {
+    position:absolute;
+	left: 91%;
+	top:115%;
+}
+.in {
+    position:absolute;
+	left: 95%;
+	top:115%;
+}
